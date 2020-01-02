@@ -13,6 +13,7 @@
 		40AB81AB23BE4C1A000D6EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AB81AA23BE4C1A000D6EAE /* Assets.xcassets */; };
 		40AB81AE23BE4C1A000D6EAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AB81AD23BE4C1A000D6EAE /* Preview Assets.xcassets */; };
 		40AB81B123BE4C1A000D6EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AB81AF23BE4C1A000D6EAE /* LaunchScreen.storyboard */; };
+		40D2DEC323BE9B7100F0BD2B /* FullscreenModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2DEC223BE9B7100F0BD2B /* FullscreenModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		40AB81AD23BE4C1A000D6EAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40AB81B023BE4C1A000D6EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40AB81B223BE4C1A000D6EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D2DEC223BE9B7100F0BD2B /* FullscreenModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				40AB81A423BE4C19000D6EAE /* AppDelegate.swift */,
 				40AB81A623BE4C19000D6EAE /* SceneDelegate.swift */,
 				40AB81A823BE4C19000D6EAE /* ContentView.swift */,
+				40D2DEC223BE9B7100F0BD2B /* FullscreenModal.swift */,
 				40AB81AA23BE4C1A000D6EAE /* Assets.xcassets */,
 				40AB81AF23BE4C1A000D6EAE /* LaunchScreen.storyboard */,
 				40AB81B223BE4C1A000D6EAE /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D2DEC323BE9B7100F0BD2B /* FullscreenModal.swift in Sources */,
 				40AB81A523BE4C19000D6EAE /* AppDelegate.swift in Sources */,
 				40AB81A723BE4C19000D6EAE /* SceneDelegate.swift in Sources */,
 				40AB81A923BE4C19000D6EAE /* ContentView.swift in Sources */,

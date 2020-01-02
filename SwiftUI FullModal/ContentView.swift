@@ -9,8 +9,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var present = false
+    
     var body: some View {
-        Text("Hello, World!")
+        
+        ZStack {
+            NavigationView {
+                VStack {
+                    Button(action: {
+                        withAnimation { self.present.toggle()} }, label: {
+                            Text("Go To Full Screen")
+                                .font(.title).fontWeight(.bold)
+                                .padding()
+                                .background(Color.blue)
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
+                    })
+                }.navigationBarTitle("Standard")
+            }
+            
+            FullscreenModal(isPresented: $present)
+            
+        }
     }
 }
 
